@@ -27,10 +27,10 @@ fn order_of_element(a: &BigUint, n: &BigUint) -> Option<BigUint> {
 }
 
 fn main() {
-    let n = BigUint::parse_bytes(b"77787642", 10).unwrap(); // Modulus
+    let n = BigUint::parse_bytes(b"24", 10).unwrap(); // Modulus
 
     // Generate a range of elements up to a specified value
-    let max_element = 77787642; // Small value for demonstration
+    let max_element = 24; // Small value for demonstration
     let elements: Vec<BigUint> = (1..=max_element as u32).map(|x| BigUint::from(x)).collect();
 
     for element in &elements {
