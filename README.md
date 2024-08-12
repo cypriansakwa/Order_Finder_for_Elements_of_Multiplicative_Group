@@ -19,9 +19,9 @@ This Rust code calculates the order of elements in the multiplicative group $\ma
 ## How It Works
 - GCD Calculation: The gcd function computes the greatest common divisor (GCD) of two numbers to check if they are coprime.
 - Order Calculation:
-- - The order_of_element function checks if an element $a$ is coprime with $n$. If it is, the function calculates the smallest integer 
+ - The order_of_element function checks if an element $a$ is coprime with $n$. If it is, the function calculates the smallest integer 
 $k$ such that $a^k\equiv 1\bmod n$.
--- If the element is not coprime with $n$, it returns None.
+ - If the element is not coprime with $n$, it returns None.
 - Output: The main function iterates over a range of elements, calculates their order, and prints the result.
 ```bash
 git clone https://github.com/cypriansakwa/Order_Finder_for_Elements_of_Multiplicative_Group.git
