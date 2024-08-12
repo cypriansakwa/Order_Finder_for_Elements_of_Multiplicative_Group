@@ -1,0 +1,1 @@
+This Rust code calculates the order of elements in the multiplicative group $\mathbb{Z}_n^*$ with a given modulus $n$. It determines a smallest positive integer $k$ such that $a^k\equiv 1\bmod n$ for each element $a$ that is coprime with $n$.
