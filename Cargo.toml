@@ -1,5 +1,5 @@
 [package]
-name = "Order_of_Element_Multiplicative_Group"
+name = "Order_Finder_for_Elements_of_Multiplicative_Group"
 version = "0.1.0"
 edition = "2021"
 
