@@ -24,6 +24,9 @@ $k$ such that $a^k\equiv 1\bmod n$.
 - Output: The main function iterates over a range of elements, calculates their order, and prints the result.
 ## Contributing
 - Contributions are welcome! If you want to contribute, please fork the repository and send a pull request.
+## Acknowledgments
+- Rust
+### Clone the repository or copy the source code into a Rust project.
 ```bash
 git clone https://github.com/cypriansakwa/Order_Finder_for_Elements_of_Multiplicative_Group.git
 cd Order_Finder_for_Elements_of_Multiplicative_Group
